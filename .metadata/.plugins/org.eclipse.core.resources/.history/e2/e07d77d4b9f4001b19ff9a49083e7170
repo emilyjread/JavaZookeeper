@@ -1,0 +1,26 @@
+package com.emilyread.zookeeper;
+
+public class ZooTest {
+
+	public static void main(String[] args) {
+		Gorilla g= new Gorilla();
+		
+		System.out.println("Initial energy: "+ g.displayEnergy());
+		
+		g.throwSomething();
+		g.throwSomething();
+		g.throwSomething();
+		
+		System.out.println("Threw three things, energy is now: "+ g.displayEnergy());
+		
+		g.eatBanana();
+		g.eatBanana();
+		
+		System.out.println("Ate 2 bananas, energy is now: "+ g.energy);
+		
+		g.climb();
+		
+		System.out.println("Had a climb, final energy is now: "+ g.energy);
+	}
+
+}

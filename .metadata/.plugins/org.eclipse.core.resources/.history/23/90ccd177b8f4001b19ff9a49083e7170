@@ -1,0 +1,5 @@
+package com.emilyread.zookeeper;
+
+public class Mammal {
+
+}

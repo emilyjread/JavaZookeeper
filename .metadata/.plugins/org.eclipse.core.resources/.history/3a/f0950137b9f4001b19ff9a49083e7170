@@ -1,0 +1,19 @@
+package com.emilyread.zookeeper;
+
+public class ZooTest {
+
+	public static void main(String[] args) {
+		Gorilla g= new Gorilla();
+		
+		System.out.println("Initial energy: "+ g.energy);
+		
+		g.throwSomething();
+		g.throwSomething();
+		g.throwSomething();
+		
+		System.out.println("Threw three things, energy is now: "+ g.energy);
+		
+		
+	}
+
+}

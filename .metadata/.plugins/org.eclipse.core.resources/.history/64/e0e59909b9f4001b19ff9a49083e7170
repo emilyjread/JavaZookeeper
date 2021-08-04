@@ -1,0 +1,12 @@
+package com.emilyread.zookeeper;
+
+public class ZooTest {
+
+	public static void main(String[] args) {
+		Gorilla g= new Gorilla();
+		
+		System.out.println(g.energy);
+
+	}
+
+}
